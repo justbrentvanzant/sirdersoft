@@ -25,27 +25,40 @@ img
     height: auto;
 }
 
-.button-one 
+.button 
 {
-    color: #E82123 !important;
+    color: #E82123;
     text-transform: uppercase;
     background: #ffffff;
     padding: 20px;
-    border: 2px solid #E82123 !important;
+    border: 2px solid #E82123;
     border-radius: 6px;
     display: inline-block;
     transition: all 0.3s ease 0s;
 }
-
-.button-one:hover 
+.button:hover 
 {
-    color: #494949 !important;
+    color: #494949;
     border-radius: 50px;
-    border-color: #494949 !important;
+    border-color: #494949;
     transition: all 0.3s ease 0s;
 }
-.quick-row {
+.top-row {
     margin-top: 2vh;
     display: flex;
     justify-content: center;
+}
+#downloadRow {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-around;
+    visibility: hidden;
+}
+.inactive
+{
+    color: #494949 !important;
+    border-color: #494949 !important;   
+}
+.visible {
+    visibility: visible !important;
 }
