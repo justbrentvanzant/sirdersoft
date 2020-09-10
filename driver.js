@@ -109,8 +109,10 @@ window.onload = function(e){
   };
 
   teamDisplayButton.onclick = function() {
-    showTeam(downloadRow);
-    makeInactive(teamDisplayButton);
+    if (people !== undefined) {
+      showTeam(downloadRow);
+      makeInactive(teamDisplayButton);
+    }
   }
 
   const makeInactive = function(elementRef) {
