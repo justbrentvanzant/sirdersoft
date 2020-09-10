@@ -126,3 +126,9 @@ img
 a { 
   color: inherit; 
 } 
+
+#sidebar {
+  position: absolute;
+  left: 2vh;
+  right: 0px;
+}
