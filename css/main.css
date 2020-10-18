@@ -43,7 +43,7 @@ img
     border-color: #494949;
     transition: all 0.3s ease 0s;
 }
-.top-row {
+.row {
     margin-top: 2vh;
     display: flex;
     justify-content: center;
